@@ -147,4 +147,9 @@ class MainActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+    override fun onStart() {
+        super.onStart()
+        Log.i("MainActivity", "onStart Called")
+    }
+
 }
